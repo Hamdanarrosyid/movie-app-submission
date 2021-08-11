@@ -1,0 +1,39 @@
+.jumbotron{
+  background-image: url('./jumbotron-image.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.jumbotron::after{
+  content:'';
+  background-color: black;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+  z-index: -1;
+}
+
+/* .card-poster{
+  /* background-position: center;
+  background-size: cover; */
+  /* position: relative;
+  height: 100%; */
+  /* z-index: 1; */
+/* } */
+/* 
+.card-poster::after{
+  content:'';
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+  z-index: -1;
+} */
