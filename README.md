@@ -16,7 +16,6 @@
 ### Prerequisites
 
 - [Nodejs](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/getting-started/install)
-- [Foxit PDF SDK for Web](https://developers.foxitsoftware.com/pdf-sdk/Web)
                    |
 
 ### Getting started to Run Locally
