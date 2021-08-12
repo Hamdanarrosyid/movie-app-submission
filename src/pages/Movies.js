@@ -30,7 +30,7 @@ const Movies = () => {
 
     const fetchMovies = useCallback(async (page) => {
         try {
-            const movies = await searchMovie(search, page)
+            const movies = await searchMovie(search.trim(), page)
             const { Search, totalResults, Response } = movies.data
 
             if (Response === 'True') {

@@ -8,7 +8,7 @@ const Home = () => {
             <div className={'w-full md:w-3/5 relative -top-20 px-5'}>
                 <div className={'text-center md:text-left'}>
                     <h1 className={'font-bold text-3xl text-orange'}>Movie App</h1>
-                    <p className={'font-medium py-5'}>This movie application for assessment</p>
+                    <p className={'font-medium py-5'}>You can search for your favorite movies here</p>
                 </div>
                 <div>
                     <SearchBar className={'text-lg md:text-xl md:p-4'} classButton={'bg-white'} />
