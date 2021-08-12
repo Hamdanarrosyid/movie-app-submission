@@ -16,7 +16,6 @@
 ### Prerequisites
 
 - [Nodejs](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/getting-started/install)
-                   |
 
 ### Getting started to Run Locally
 

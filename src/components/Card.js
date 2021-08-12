@@ -12,7 +12,7 @@ const Card = ({ movie, onClickCard, onClickImage }) => {
     }
 
     return (
-        <div className={'h-96 cursor-pointer flex flex-col bg-white bg-opacity-10'}>
+        <div className={'h-96 cursor-pointer flex flex-col bg-white bg-opacity-10'} id={'card-item'}>
             <div className={'h-3/4 text-center flex items-center justify-center relative'} onMouseLeave={() => setHover(false)} onMouseEnter={handleMouseEnter}>
                 {
                     Poster !== 'N/A' ?(
